@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body>
+
+        <section class="container">
+            <div class="logo">
+                <img src="./images/use.png" alt="">
+            </div>
+
+            <h1 class="heading">to do app</h1>
+
+            <form class="new-task-container box-1">
+                <label for="new-task">add new tasks</label>
+                <input type="text" id="to-do">
+                <button type="button" class="btn">add task</button>
+            </form>
+
+
+            <div class="to-do-list">
+                <div class="box">
+                    <h1 class="head">incomplete tasks</h1>
+
+                   <ul id="item">
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn update">update</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn update">update</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn update">update</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn update">update</button> <br></br>
+                        </li>
+                   </ul>
+                </div>
+
+                <div class="box">
+                    <h1 class="head">complete tasks</h1>
+
+                   <ul id="item">
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn delete">delete</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn delete">delete</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn delete">delete</button> <br></br>
+                        </li>
+
+                        <li class="item">
+                            <input type="checkbox"><label>tasks name</label>
+                            <button type="button" class="btn delete">delete</button> <br></br>
+                        </li>
+                   </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    <script src="./js/dom.js"></script>
+</body>
+</html>
