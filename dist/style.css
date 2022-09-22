@@ -84,6 +84,8 @@
     color: white;
     border: 0px;
     padding: 3px 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
   }
   
   .delete {
@@ -92,4 +94,6 @@
     color: white;
     border: 0px;
     padding: 3px 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
   }

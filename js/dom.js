@@ -54,14 +54,28 @@
     console.log(childrenTwo);*/
 
     //--------------- Manipulate ----------------
-    const divElement = document.createElement('div');
+   /* const divElement = document.createElement('div');
     divElement.className = 'newDiv';
     divElement.setAttribute('id', 'Red');
     divElement.setAttribute('title', 'Red');
 
     const container = document.querySelector('.todo-list');
-    const h2Element = container.querySelector('h2');
-    container.insertBefore(divElement, h2Element);
+    //const h2Element = container.querySelector('h2');
+    //container.insertBefore(divElement, h2Element);
+    container.appendChild(divElement);*/
+
+    //------------------------ Event Listner ----------------------
+    /*const headerElements = document.querySelector('#header');
+    headerElements.addEventListener('mouseup', (event) => {
+        console.log(event);
+    });
+
+    const inputElement = document.querySelector('#new-task');
+    inputElement.addEventListener('cut', (myFunction) =>{
+       console.log(myFunction)
+    })*/
+
+
 
 
 
